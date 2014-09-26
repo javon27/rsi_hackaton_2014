@@ -25,13 +25,12 @@
 </head>
 
 <body>
-
+<?php include 'header.html'; ?>
 <div class="container-fluid">
   <div class='row'>
     <div class='main-content'>
 
       <div id="parkContent" class="content">
-        <h1>Jonesboro Parks and Recreation</h1>
         <p>Welcome to the Jonesboro Parks and Recreation website. Click on a park name below to view information
           on each park.</p>
       </div>
