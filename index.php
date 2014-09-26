@@ -26,9 +26,12 @@
 </head>
 
 <body>
-<?php include 'header.html'; ?>
+
 <div class="container-fluid">
   <div class='row'>
+    <div class='hidden-xs hidden-sm'>
+      <?php include 'header.html'; ?>
+    </div>
     <div class='main-content'>
 
       <div id="parkContent" class="content">
