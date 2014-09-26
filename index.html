@@ -10,6 +10,15 @@
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <link rel="stylesheet" href="css/main.css">
+
+    <script>
+      function changeImage()
+      {
+      var img = document.getElementById("image");
+      img.src="imgs/JonesboroPoolCenter.JPG";
+      return false;
+      }
+    </script>
 </head>
 
 <body>
@@ -41,7 +50,7 @@
 
         <div class='row'><!--first 4 parks-->
           <div class='col-lg-3 col-md-3 col-sm-3 col-xs-12'>
-            <div id="allen_park" class="park">Allen Park and Community Center</div>
+            <div id="allen_park" onclick='changeImage();' class="park">Allen Park and Community Center</div>
           </div>
           <div class='col-lg-3 col-md-3 col-sm-3 col-xs-12'>
             <div id="craighead_forest" class="park"><div class="inner">Craighead Forest Park</div></div>

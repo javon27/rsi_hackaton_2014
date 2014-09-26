@@ -36,7 +36,7 @@
 body{
     /*background-image: url('../imgs/parkpic.jpg');
     background-repeat: repeat-x;*/
-  background: url(../imgs/parkpic.jpg) no-repeat center center fixed; 
+  background: url(../imgs/parkpic.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
