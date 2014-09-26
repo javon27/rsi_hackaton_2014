@@ -3,17 +3,7 @@
     min-width: 600px;
     border: 1px solid black;
 }
-body {
-    background: #51a2ff; /* Old browsers */
-    background: -moz-linear-gradient(top,  #51a2ff 0%, #69a7db 29%, #2989d8 86%, #00bc06 95%, #0d8400 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#51a2ff), color-stop(29%,#69a7db), color-stop(86%,#2989d8), color-stop(95%,#00bc06), color-stop(100%,#0d8400)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #51a2ff 0%,#69a7db 29%,#2989d8 86%,#00bc06 95%,#0d8400 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #51a2ff 0%,#69a7db 29%,#2989d8 86%,#00bc06 95%,#0d8400 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #51a2ff 0%,#69a7db 29%,#2989d8 86%,#00bc06 95%,#0d8400 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  #51a2ff 0%,#69a7db 29%,#2989d8 86%,#00bc06 95%,#0d8400 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#51a2ff', endColorstr='#0d8400',GradientType=0 ); /* IE6-9 */
 
-}
 #parkContent h1 {
     text-align: center;
 }
@@ -40,5 +30,16 @@ body {
     text-align: center;
 }
 
+.main-content{
+  text-align: center;
+}
 
-
+body{
+    /*background-image: url('../imgs/parkpic.jpg');
+    background-repeat: repeat-x;*/
+  background: url(../imgs/parkpic.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
