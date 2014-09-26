@@ -1,9 +1,9 @@
 
 
-$("#parklogo").click(function() {
+$( "#inner1" ).click( function() {
     alert();
-})
+});
 
-function parklogoCLick() {
+function parklogoClick() {
     alert();
 };

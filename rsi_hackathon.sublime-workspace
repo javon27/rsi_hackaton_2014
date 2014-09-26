@@ -3,31 +3,46 @@
 	{
 		"selected_items":
 		[
+			[
+				"bak",
+				"background-color"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "js/main.js",
 			"settings":
 			{
-				"buffer_size": 957,
+				"buffer_size": 98,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "main.css",
+			"contents": "<!doctype html>\n\n<html lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<head>\n    <title>Jonesboro Parks and Recreation</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"bootstrap/css/bootstrap.min.css\">\n    <script type=\"text/javascript\" src=\"js/jquery.min.js\"></script>\n    <script type=\"text/javascript\" src=\"bootstrap/js/bootstrap.min.js\"></script>\n\n    <script type=\"text/javascript\" src=\"js/main.js\"></script>\n    <link rel=\"stylesheet\" href=\"css/main.css\">\n\n    <script>\n      function changeImage(filename)\n      {\n      var img = document.getElementById(\"image\");\n      img.src=\"imgs/\" + filename;\n      return false;\n      }\n      $(\"#parkContent\").click(function () {\n        alert('blah');\n      })\n    </script>\n\n</head>\n\n<body>\n<?php include 'header.html'; ?>\n<div class=\"container-fluid\">\n  <div class='row'>\n    <div class='main-content'>\n\n      <div id=\"parkContent\" class=\"content\">\n        <p>Welcome to the Jonesboro Parks and Recreation website. Click on a park name below to view information\n          on each park.</p>\n      </div>\n      <div class='row'><!--this is for the images for each park-->\n        <div class='col-lg-12 col-md-12 col-sm-12 hidden-xs'>\n          <!--need to change each image depending on which park is selected(php, javascript, idfk)-->\n          <img src='imgs/MiracleLeagueLogo.JPG' alt='header img'>\n        </div><!--col-->\n      </div><!--row-->\n      <div id=\"parkSelector\">\n        <div class='row'><!--first 4 parks-->\n          <div class='col-lg-3 col-md-3 col-sm-3 col-xs-12'>\n            <div id=\"allen_park\" class=\"park\"><div class=\"inner\" id='inner1'>Allen Park and Community Center</div></div>\n          </div>\n          <div class='col-lg-3 col-md-3 col-sm-3 col-xs-12'>\n            <div id=\"craighead_forest\" class=\"park\"><div class=\"inner\">Craighead Forest Park</div></div>\n          </div>\n          <div class='col-lg-3 col-md-3 col-sm-3 col-xs-12'>\n            <div id=\"earl_bell\" class=\"park\"><div class=\"inner\">Earl Bell Community Center</div></div>\n          </div>\n          <div class='col-lg-3 col-md-3 col-sm-3 col-xs-12'>\n            <div id=\"joe_mack\" class=\"park\"><div class=\"inner\">Joe Mack Campbell Park</div></div>\n          </div>\n        </div>\n        <div class='row'><!--next 4 parks-->\n          <div class='col-lg-3 col-md-3 col-sm-3 col-xs-12'>\n            <div id=\"jonesboro_pool\" class=\"park\"><div class=\"inner\">Jonesboro Pool Center</div></div>\n          </div>\n          <div class='col-lg-3 col-md-3 col-sm-3 col-xs-12'>\n            <div id=\"miracle_league\" class=\"park\"><div class=\"inner\">Miracle League of Jonesboro</div></div>\n          </div>\n          <div class='col-lg-3 col-md-3 col-sm-3 col-xs-12'>\n            <div id=\"parker_park\" class=\"park\"><div class=\"inner\">Parker Park Community Center</div></div>\n          </div>\n          <div class='col-lg-3 col-md-3 col-sm-3 col-xs-12'>\n            <div id=\"southside_softball\" class=\"park\"><div class=\"inner\">Southside Softball Complex</div></div>\n          </div>\n        </div>\n      </div>\n\n    </div><!--main-content-->\n  </div><!--row-->\n</div><!--contFluid-->\n\n</body>\n\n</html>\n",
+			"file": "index.php",
+			"file_size": 3284,
+			"file_write_time": 130562408617592634,
 			"settings":
 			{
-				"buffer_size": 3,
+				"buffer_size": 3204,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "main.js",
+			"file": "/D/Users/Jayson/Downloads/git/websim/js/main.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 4581,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Users/Jayson/Downloads/git/websim/js/handlers.js",
+			"settings":
+			{
+				"buffer_size": 8390,
 				"line_ending": "Windows"
 			}
 		},
@@ -43,15 +58,23 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 368.0,
+		"height": 180.0,
 		"selected_items":
 		[
+			[
+				"wrap",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"html",
+				"HTML: Wrap Selection With Tag"
+			],
 			[
 				"pack",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 384.0
+		"width": 480.0
 	},
 	"console":
 	{
@@ -82,13 +105,21 @@
 	},
 	"expanded_folders":
 	[
-		"/D/RSI Hackathon 2014/rsi_hackaton_2014"
+		"/D/RSI Hackathon 2014/rsi_hackaton_2014",
+		"/D/RSI Hackathon 2014/rsi_hackaton_2014/css",
+		"/D/RSI Hackathon 2014/rsi_hackaton_2014/js"
 	],
 	"file_history":
 	[
+		"/D/RSI Hackathon 2014/rsi_hackaton_2014/css/main.css",
+		"/D/RSI Hackathon 2014/rsi_hackaton_2014/index.html",
+		"/D/Users/Jayson/Downloads/git/websim/js/main.js",
+		"/C/Users/Jayson/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/Users/Jayson/Downloads/git/websim/index.html",
+		"/D/RSI Hackathon 2014/rsi_hackaton_2014/main.css",
+		"/D/RSI Hackathon 2014/rsi_hackaton_2014/main.js",
 		"/D/Users/Jayson/Downloads/git/websim/app.py",
-		"/D/Users/Jayson/Dropbox/ARS/authorized_keys",
-		"/C/Users/Jayson/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+		"/D/Users/Jayson/Dropbox/ARS/authorized_keys"
 	],
 	"find":
 	{
@@ -128,24 +159,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "js/main.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 957,
+						"buffer_size": 98,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								287,
-								287
+								98,
+								98
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -156,27 +187,29 @@
 				},
 				{
 					"buffer": 1,
-					"file": "main.css",
+					"file": "index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3,
+						"buffer_size": 3204,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3,
-								3
+								792,
+								792
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 156.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -184,11 +217,11 @@
 				},
 				{
 					"buffer": 2,
-					"file": "main.js",
+					"file": "/D/Users/Jayson/Downloads/git/websim/js/main.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 4581,
 						"regions":
 						{
 						},
@@ -201,9 +234,39 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 624.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/Users/Jayson/Downloads/git/websim/js/handlers.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -211,7 +274,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "/D/Users/Jayson/Downloads/git/websim/index.html",
 					"semi_transient": false,
 					"settings":
@@ -223,8 +286,8 @@
 						"selection":
 						[
 							[
-								70,
-								17
+								0,
+								0
 							]
 						],
 						"settings":
@@ -233,10 +296,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 702.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
