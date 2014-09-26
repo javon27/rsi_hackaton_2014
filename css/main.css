@@ -1,1 +1,30 @@
-#p
+#parkSelector {
+    position: relative;
+    min-width: 600px;
+    border: 1px solid black;
+}
+
+#parkContent h1 {
+    text-align: center;
+}
+
+.content{
+    margin-left: 25px;
+    margin-right:25px;
+}
+.park {
+    display: table;
+    top: 50%;
+    bottom: ;
+    margin: 2px;
+    width: 120px;
+    height: 60px;
+    background-color: #15D183;
+    color: white;
+}
+
+.inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
