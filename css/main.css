@@ -28,3 +28,17 @@
     vertical-align: middle;
     text-align: center;
 }
+
+.main-content{
+  text-align: center;
+}
+
+body{
+    /*background-image: url('../imgs/parkpic.jpg');
+    background-repeat: repeat-x;*/
+  background: url(../imgs/parkpic.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
