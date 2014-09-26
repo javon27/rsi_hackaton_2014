@@ -1,7 +1,7 @@
 #parkSelector {
     position: relative;
     min-width: 600px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin-top: 25px;
 }
 
@@ -19,7 +19,7 @@
     top: 50%;
     bottom: ;
     margin: 2px;
-    background-color: rgba(21, 209, 131, 0.53);
+    background-color: rgba(21, 209, 131, 0.7);
     color: white;
     width: 250px;
     height: 60px;
@@ -36,6 +36,8 @@
 
 .main-content{
   text-align: center;
+  padding: 10%;
+  background-color: rgba(157, 213, 242, 0.5);
 }
 
 body{
@@ -51,3 +53,24 @@ body{
 .container-fluid {
     margin-top: 20px;
 }
+
+.headerStyle{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    /*background-color: rgba(21, 209, 131, 0.53);*/
+    /*background-color: rgb(26, 33, 40);*/
+    z-index: 10;
+}
+
+  .aLinks{
+    position: relative;
+    /*color: #504e4e;*/
+    color: rgb(26, 33, 40);
+    right: 10%;
+    float: right;
+
+  }

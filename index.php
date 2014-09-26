@@ -22,13 +22,12 @@
 </head>
 
 <body>
-
+<?php include 'header.html'; ?>
 <div class="container-fluid">
   <div class='row'>
     <div class='main-content'>
 
       <div id="parkContent" class="content">
-        <h1>Jonesboro Parks and Recreation</h1>
         <p>Welcome to the Jonesboro Parks and Recreation website. Click on a park name below to view information
           on each park.</p>
       </div>
@@ -64,7 +63,7 @@
             <div id="parker_park" class="park"><div class="inner">Parker Park Community Center</div></div>
           </div>
           <div class='col-lg-3 col-md-3 col-sm-3 col-xs-12'>
-            <div id="southside_softball" class="park"><div class="inner">Southside Softball Complex</div></div> -->
+            <div id="southside_softball" class="park"><div class="inner">Southside Softball Complex</div></div>
           </div>
         </div>
       </div>
