@@ -1,8 +1,9 @@
 #parkSelector {
-    position: relative;
-    min-width: 600px;
-    border: 1px solid black;
+    position: absolute;
     margin-top: 25px;
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 #parkContent h1 {
