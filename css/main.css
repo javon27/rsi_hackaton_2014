@@ -29,6 +29,10 @@
     border-radius: 5px;
 }
 
+.park {
+    cursor: pointer;
+}
+
 .inner {
     width: 120px;
     height: 60px;

@@ -39,15 +39,15 @@
           on each park.</p>
       </div>
       <div class='row'><!--this is for the images for each park-->
-        <div class='col-lg-12 col-md-12 col-sm-12 hidden-xs'>
+        <div id='park_image' class='col-lg-12 col-md-12 col-sm-12 hidden-xs'>
           <!--need to change each image depending on which park is selected(php, javascript, idfk)-->
-          <img src='imgs/MiracleLeagueLogo.JPG' alt='header img'>
+          <img src='imgs/AllenPark.JPG' alt='header img'>
         </div><!--col-->
       </div><!--row-->
       <div id="parkSelector">
         <div class='row'><!--first 4 parks-->
           <div class='col-lg-3 col-md-3 col-sm-3 col-xs-12'>
-            <div id="allen_park" class="park"><div class="inner" id='inner1'>Allen Park and Community Center</div></div>
+            <div id="allen_park" class="park"><div class="inner">Allen Park and Community Center</div></div>
           </div>
           <div class='col-lg-3 col-md-3 col-sm-3 col-xs-12'>
             <div id="craighead_forest" class="park"><div class="inner">Craighead Forest Park</div></div>
